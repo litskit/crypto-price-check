@@ -1,0 +1,17 @@
+<mat-toolbar>
+  <span>Crptyo Price Check</span>
+  <span class="example-spacer"></span>
+  <mat-form-field appearance="outline">
+    <mat-select (valueChange)="sendCurrency($event)" class="text-sm" [(ngModel)]="selectedCurrency">
+      <mat-option selected value="USD">USD</mat-option>
+      <mat-option value="EUR">EUR</mat-option>
+      <mat-option value="AED">AED</mat-option>
+      <mat-option value="JPY">JPY</mat-option>
+      <mat-option value="INR">INR</mat-option>
+      <mat-option value="CAD">CAD</mat-option>
+      <mat-option value="GBP">GBP</mat-option>
+      <mat-option value="CNY">CNY</mat-option>
+    </mat-select>
+  </mat-form-field>
+</mat-toolbar>
+<router-outlet></router-outlet>
