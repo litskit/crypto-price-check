@@ -1,3 +1,4 @@
+
 ### Credit 
 This project is a practice project following the video tutorial guide 'Angular Project - Cryptocurrency price tracker | Angular HTTP Client | Angular Material UI' provided by Let's Program Channel.
 
