@@ -6,7 +6,10 @@ YT Link: https://www.youtube.com/watch?v=vb6b67HiuC8
 
 Github: https://github.com/yshashi/crypto-checker-yt
 
+This Project utilizes coin gecko API.
 
+#### Preview
+![alt text](image-1.png)
 
 #### Changes added
 Added more currency in the dropdown menu.
